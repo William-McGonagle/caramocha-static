@@ -73,6 +73,6 @@ function generateFrontend(websiteData, zip) {
     var indexJs = react.file('index.js', generateIndexJS());
     var indexHtml = react.file('index.html', generateIndexHtml(websiteData));
 
-    return public;
+    return react;
 
 }
