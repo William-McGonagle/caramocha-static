@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;800&display=swap')
+
+*
+    box-sizing: border-box
+    outline: none
+    font-family: 'JetBrains Mono', monospace
+
+body
+    text-align: center
+
+    h1
+        padding: 100px 0px 0px 0px
+        font-size: 38px
+        font-weight: 900
+        margin: 0px
+
+    h2
+        padding: 0px 0px 100px 0px
+        margin: 0px
+        font-size: 16px
+        font-weight: 100
+
+section
+    max-width: 800px
+    margin: 10px auto
+    border-radius: 5px
+    border: 1px solid #ddd
+    padding: 25px
+    text-align: justify
+
+    label
+        text-align: left
+        font-weight: 900
+        display: block
+        padding-top: 20px
+
+    input, select, textarea
+        width: 100%
+        padding: 12px
+        font-size: 14px
+        border: 1px solid #ddd
+        border-radius: 5px
+
+    textarea
+        resize: vertical
+
+    button
+        width: 100%
+        padding: 20px
+        // height: 60px
+        font-size: 18px
+        border: none
+        border-radius: 5px
+        background: linear-gradient(90deg, #d53369 0%, #daae51 100%)
+        color: white
+        transition: transform 0.2s
+        font-weight: 100
+
+        &:hover
+            transform: scale(0.95, 1.1)
+            cursor: pointer
+
+        &:active
+            transform: scale(1.1, 0.9)

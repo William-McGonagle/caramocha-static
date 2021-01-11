@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+  text-align: center;
+}
+
+body h1 {
+  padding: 100px 0px 0px 0px;
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0px;
+}
+
+body h2 {
+  padding: 0px 0px 100px 0px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+section {
+  max-width: 800px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 25px;
+  text-align: justify;
+}
+
+section label {
+  text-align: left;
+  font-weight: 900;
+  display: block;
+  padding-top: 20px;
+}
+
+section input, section select, section textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+section textarea {
+  resize: vertical;
+}
+
+section button {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(#d53369), to(#daae51));
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  color: white;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  font-weight: 100;
+}
+
+section button:hover {
+  -webkit-transform: scale(0.95, 1.1);
+          transform: scale(0.95, 1.1);
+  cursor: pointer;
+}
+
+section button:active {
+  -webkit-transform: scale(1.1, 0.9);
+          transform: scale(1.1, 0.9);
+}
+/*# sourceMappingURL=style.css.map */
