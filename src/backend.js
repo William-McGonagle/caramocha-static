@@ -22,7 +22,7 @@ async function generateBackend(websiteData, zip) {
             var pathData = websiteData.models[model].paths[path];
 
             var pathFile = modelFolder.file(`${path}.js`, backendTemplates[pathData.template](websiteData, model, path));
-            routesData += `app.${pathData.protocol}("${model}/${pathData.url}", require('./routes/${model}/${path}'));\n`;
+            routesData += `app.${pathData.protocol}("/${model}/${pathData.url}", require('./routes/${model}/${path}'));\n`;
 
         }
 

@@ -25,6 +25,32 @@ $(function () {
 
 });
 
+function addModel() {
+
+    var modelElement = $("<div></div>").height(0);
+    $('#models').append(modelElement);
+
+    setTimeout(function () {
+        
+        modelElement.height('');
+
+    }, 50);
+
+}
+
+function addPage() {
+
+    var pageElement = $("<div><iframe src='http://www.bing.com/'></iframe></div>").height(0);
+    $('#pages').append(pageElement);
+
+    setTimeout(function () {
+        
+        pageElement.height('');
+
+    }, 50);
+
+}
+
 function setAndRememberValue(name) {
 
     $(`#${name}`).val(Cookies.get(name)); 
